@@ -21,6 +21,9 @@ function Header() {
               {car}
             </a>
           ))}
+        <a href='#'>Solar Panels</a>
+        <a href='#'>Solar Roofs</a>
+        <a href='#'>Accesories</a>
         {/* <a href='#'>Model S</a>
         <a href='#'>Model 3</a>
         <a href='#'>Model X</a>
@@ -43,7 +46,7 @@ function Header() {
               </a>
             </li>
           ))}
-        {/* <li>
+        <li>
           <a href='#'>Existing Invetory</a>
         </li>
         <li>
@@ -57,7 +60,7 @@ function Header() {
         </li>
         <li>
           <a href='#'>Roadaster</a>
-        </li> */}
+        </li>
         <li>
           <a href='#'>Semi</a>
         </li>
@@ -98,6 +101,8 @@ const Menu = styled.div`
     text-transform: uppercase;
     padding: 0 10px;
     flex-wrap: no-wrap;
+    margin-left: 30x 0;
+    font-size: 14px;
   }
   @media (max-width: 768px) {
     display: none;
